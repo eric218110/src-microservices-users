@@ -1,0 +1,11 @@
+{
+  "src/**/*.+(js|json|ts)": [
+    "eslint --fix"
+  ],
+  "src/**/*.{js,ts}": [
+    "npm run test:staged"
+  ],
+  "src/**/*.{js,ts,json,md}": [
+    "prettier --write"
+  ]
+}
